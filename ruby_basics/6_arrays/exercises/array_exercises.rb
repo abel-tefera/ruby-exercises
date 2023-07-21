@@ -15,7 +15,7 @@ end
 
 def last_three_elements(array)
   # return the last 3 elements of the array
-  array[-3..-1]
+  array[-3..-1] || array
 end
 
 def add_element(array)
